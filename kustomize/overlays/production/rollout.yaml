@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: wostal-eu
-        image: slavicviking/www-pnb
+        image: slavicviking/www-pnb:latest
         ports:
         - containerPort: 80
         livenessProbe:
